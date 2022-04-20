@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>File download</title>
+</head>
+<body>
+
+    <p>
+        <a href="/api/user/download">File download</a>
+    </p>
+    <form action="/api/user/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="user_csv">
+        <button type="submit">File Upload</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "db": {
+        "test": {
+            "host": "db",
+            "port": "3306",
+            "user": "root",
+            "password": "",
+            "db_name": "test"
+        },
+        "test_read": {
+            "host": "db",
+            "port": "3306",
+            "user": "root",
+            "password": "",
+            "db_name": "test"
+        }
+    },
+    "aws": {
+        "region": "ap-northeast-1"
+    }
+}
